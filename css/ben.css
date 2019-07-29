@@ -1,0 +1,282 @@
+  html, body {
+            font-family: "RobotoCondensed-Regular";
+            font-size: 30px;
+            font-weight: bold;
+            text-align: justify;
+            background-color: #FFFFFF; 
+
+
+		}
+		span{
+			font-family: "RobotoCondensed-Regular";
+		}
+		button{
+						font-family: "RobotoCondensed-Regular";
+
+		}
+.arkaplan{
+
+	background-image: url(img/backg.jpg);
+    background-color: #FFFFFF;    background-size: cover;
+    background-position: center;
+}.arkaplan2{
+
+	background-image: url(img/back12.jpg);
+    background-color: #FFFFFF;    background-size: cover;
+	background-position: center;
+	height: 100%
+}
+.MainBosluk{
+	margin-top:5%;
+}
+.MainForm{
+	height:100%;
+	text-align:center;	
+	color:#FFFFFF;
+
+}
+.AraForm {
+	
+		height:100%;
+
+	
+}
+
+
+
+.icon-user:before{
+	font-size:50px;
+		align-items:center;	color: #FFFFFF
+
+
+}
+.icon-help:before{
+	font-size:50px;
+	align-items:center;	color: #FFFFFF
+
+}
+.icon-plus-roll:before {
+	font-size:70px;
+	align-items:center;	color: #FFFFFF
+
+}
+.icon-search:before {
+font-size:70px;
+	align-items:center;	color: #FFFFFF
+
+
+}
+.icon-x-line:before {
+	font-size:200px;
+	align-items:center;	color: #FFFFFF
+
+}
+.icon-checkbox:before {
+	font-size:200px;
+	align-items:center;	color: #FFFFFF
+
+}
+.icon-alert-line:before {
+	font-size:150;
+	align-items:center;	color: #FFFFFF
+
+	
+}
+.icon-arrow1-l{
+	font-size:70px;
+	align-items:center;	color: #FFFFFF
+
+	
+}
+
+.icon-notification:before {
+	font-size:70;
+	align-items:center;	color: #FFFFFF
+
+}
+
+.mainKullanici p{
+
+margin-left: 5%;
+margin-right: 10%
+
+
+
+
+}
+.mainbutton{
+	background-color: #0082C3;
+	margin-bottom: 50px;
+	font-size:50px; 	
+	display:flex!important;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:center;
+	 font-weight:10px;	
+		  opacity: 0.8;
+		  width:100%;
+		  margin-top: 20%;
+
+	  filter: alpha(opacity=40);
+	  padding:40px;
+}
+.buttonContainer{
+	width:100%;
+	margin:auto;
+	display:flex;
+	    opacity: 0.8;
+}
+.mainbutton span{
+	width:100%;
+	color:#FFFFFF;
+}
+
+
+table, th, td {
+	
+	font-size:30px;
+	background-color:snow;
+			  opacity: 0.9;
+
+width: 100%;
+
+}
+
+th, td{
+	padding:10px;
+	border: 1px solid #ababab;
+	
+}
+
+select {
+    padding:15px;
+	font-size:  30px;
+	
+}
+
+.EkleForm{
+
+	position: relative;
+}
+.EkleForm button {
+    padding: 2%;
+	background-color: #0082C3;
+	left:6%;
+	font-size:30px;
+	    opacity: 0.8;
+
+	
+
+}
+.EkleForm input{
+
+	padding: 3%
+}
+.EkleForm2{
+
+position: relative;
+	padding: 10%;
+	height: 100%;
+}
+.btnben{
+	padding: 5px;
+	background-color: #0082C3;
+    width: 100%;
+	opacity: 0.8;
+	font-size: 30px;
+
+}
+.ustyazi{
+	margin-left: 30px;
+}
+.arabutton{
+	
+	background-color: #FFFFFF;
+	font-size:30px; 	
+	padding: 5%;
+    width: 100%;
+    opacity: 0.8;
+
+}
+.buttonContainer2{
+	width:100%;
+	margin:auto;
+	display:flex;
+}
+.EkleForm2 button{
+font-size:30px;
+	 padding: 8%;
+	background-color: #0082C3;
+	left:80%;
+    opacity: 0.8;
+}
+
+
+.user-icon{
+background-color: #0082C3;
+border-radius: 50%;
+width:200px;
+height:200px;
+margin:auto;
+opacity: 0.7;
+}
+
+.icon-user{
+	margin-top: 10px;
+	color: #FFFFFF
+}
+
+
+.icon-user:before {
+  font-size: 150px;
+  	color: #FFFFFF
+
+}
+.usttaraf{
+
+	   
+		width: 94%;
+		background-color: #0082C3;
+		padding: 3%;
+
+}
+.usttaraf span{
+font-size: 50px;
+
+}
+.sorgubtn{
+font-size: 30px;
+		background-color: #0082C3;
+		padding: 18%;
+		margin-right: 20px;
+
+}
+.sorgulama{
+
+	font-size: 40px;
+	display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 20px;
+margin-bottom: 20px;
+}
+
+.sorgulama .item{ 	
+	display:flex;
+	width: 80%;
+}
+.sorgulama .item-code{
+	font-size:30px;
+
+padding: 1%;
+width: 60%
+
+
+}
+
+
+.tablebutton{
+	display: flex;
+	padding:40px;
+		background-color: #0082C3;
+}
