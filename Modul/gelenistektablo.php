@@ -26,9 +26,9 @@ echo "</tr>";
 
 
 
-$kume = array("elma", "armut");
+$kume = array("elma", "armut", "armut", "armut", "armut", "armut", "armut", "armut", "armut", "armut", "armut", "armut", "armut", "armut", "armut", "armut");
 array_push($kume, "muz", "portakal","deneme1","deneme3");
-for ($i=0;$i<=sizeof($someArray)-1;$i++){
+for ($i=0;$i<=sizeof($kume)-1;$i++){
   
   
    echo "<tr>";
@@ -40,9 +40,11 @@ for ($i=0;$i<=sizeof($someArray)-1;$i++){
   
    
    
-   echo "<td>",$someArray[$i]["name"], "</td>";
+   echo "<td>", $i * $i * $i, "</td>";
+   echo "<td>",$i*$i*$i,"</td>";   echo "<td>",$i*$i*$i,"</td>";
    echo "<td>",$i*$i*$i,"</td>";
-   echo "<td><input type='button' class='tablebutton' value='Onayla'><input type='button' class='tablebutton' value='Red Et'></td>";
+
+   echo "<td><input type='button' class='sorgubtn' value='Onayla'><input type='button' class='sorgubtnred' value='Red Et'></td>";
    echo "</tr>";
 }
 echo "</table>";

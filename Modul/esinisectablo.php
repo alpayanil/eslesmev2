@@ -8,7 +8,7 @@ echo "<th>Item</th>";
 echo "<th>Ürün Adı</th>";
 echo "<th>Ekleme Tarihi</th>";
 echo "<th>Kullanıcı</th>";
-
+echo "<th>Seç</th>";
 
 
 echo "</tr>";
@@ -41,6 +41,10 @@ for ($i=0;$i<=sizeof($someArray)-1;$i++){
    
    echo "<td>",$someArray[$i]["name"], "</td>";
    echo "<td>",$i*$i*$i,"</td>";
+   echo "<td>",$i*$i*$i,"</td>";
+   echo "<td>",$i*$i*$i,"</td>";   
+   echo "<td><input type='button' value='seç' class='sorgubtn'></td>";
+
    echo "</tr>";
 }
 echo "</table>";

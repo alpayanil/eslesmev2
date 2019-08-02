@@ -45,4 +45,5 @@ for ($i=0;$i<=sizeof($someArray)-1;$i++){
    echo "</tr>";
 }
 echo "</table>";
+
 ?>

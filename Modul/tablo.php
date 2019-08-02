@@ -34,12 +34,13 @@ if ($err) {
 
 echo "<table border='1' >";
 echo "<tr>";
-echo "<th height='150'>Item</th>";
+echo "<th height='10'>Item</th>";
 echo "<th>Ürün Adı</th>";
 echo "<th>Ekleme Tarihi</th>";
 echo "<th>Gönderilen</th>";
 echo "<th>Gönderen</th>";
 echo "<th>Durum</th>";
+echo "<th>Ürünü Kaldır</th>";
 
 
 
@@ -57,11 +58,12 @@ echo "</tr>";
 
 
 
-$kume = array("elma", "armut");
+$kume = array("123", "213123","332","7777","666","1321620");
 array_push($kume, "muz", "portakal","deneme1","deneme3");
-for ($i=0;$i<=sizeof($response["Ratings"])-1;$i++){
-  
-  
+/*for ($i=0;$i<=sizeof($response["Ratings"])-1;$i++){*/
+for ($i = 0; $i <= sizeof($kume) - 1; $i++) {
+    echo "<tbody id='myTable'>";
+
    echo "<tr>";
    echo "<td>
  
@@ -72,8 +74,16 @@ for ($i=0;$i<=sizeof($response["Ratings"])-1;$i++){
   
    
    echo "<td>",$response["Ratings"][$i]["Source"], "</td>";
-   echo "<td>",$i*$i*$i,"</td>";
+  echo "<td>", $i * $i * $i, "</td>";
+  echo "<td>", $i * $i * $i, "</td>";
+  echo "<td>", $i * $i * $i, "</td>";
+  echo "<td>", $i * $i * $i, "</td>";
+
+  echo "<td><input type='button' value='Sil' class='sorgubtnred'></td>";
+
    echo "</tr>";
+  echo "</tbody>";
+
 }
 echo "</table>";
 ?>

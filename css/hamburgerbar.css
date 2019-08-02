@@ -1,3 +1,5 @@
+/* Portrait and Landscape */
+
 .hamburgerblackarea {
             opacity: 0;
             display: none;
@@ -12,8 +14,7 @@
 
         .hamburgerMenuArea{
             display: none;
-            width: 100%;
-            max-width: 500px;
+            width: 65%;
             height: 100%;
             position: fixed;
             left: 0px;
@@ -26,9 +27,9 @@
         }
 
         .hUserInf {
+                background-image: url(img/8.png);
             width: 100%;
             height: 300px;
-            background-color: #0082C3;
             background-size: cover;
             display: flex;
             align-items: center;
@@ -38,6 +39,7 @@
             position: relative;
             overflow: hidden;
         }
+       
 
         .userInfTextArea {
             color: #ffffff  ;
@@ -75,6 +77,7 @@
             padding: 5px 0px;
             font-size: 15px;
             font-weight: 400;
+                margin-top: 70px;
         }
 
         .pagesArea li a {
@@ -96,7 +99,10 @@
             color: #0082C3;
             font-weight: 100;
         }
+       .pagesArea span {
 
+        font-size: 60px;
+       }
         #homepage span:before {
             content: "\E070";
         }
@@ -115,4 +121,7 @@
   font-size: 50px;
   	color: #FFFFFF
 
+}
+
+@media only screen and (max-height: 500px){
 }

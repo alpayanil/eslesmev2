@@ -14,7 +14,7 @@
 <link href="css/fonts.css" type="text/css" rel="stylesheet" script="javasc/scriptim"/>
 
 
-<div class="arkaplan2">
+<div class="arkaplan3">
 
 
 
@@ -33,10 +33,10 @@
 
     <div class ="AraForm">
   
-        <hr size="14x" color=#0082C3>
    <?php include "./Modul/esinisectablo.php";?>
-
-   <?php include "./Modul/esinisecvol2.php";?>
+   
+<div class="vol2" style="display:none">
+   <?php include "./Modul/esinisecvol2.php";?></div>
    </div>
  
 
