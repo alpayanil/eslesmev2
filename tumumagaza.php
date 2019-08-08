@@ -37,6 +37,7 @@
 
       <label for="uname"><b>Ürün Item Kodu:</b></label>
       <input name="uruntxt" id="myInput" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+   
       <script>
         $(document).ready(function() {
           $("#myInput").on("keyup", function() {
@@ -47,7 +48,6 @@
           });
         });
       </script>
-      <button class="EkleForm button" id="de" type="button">Ürün Bul</button>
 
     </div>
 

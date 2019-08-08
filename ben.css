@@ -1,0 +1,604 @@
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+ 
+ html, body {
+            font-family: "RobotoCondensed-Regular";
+            font-size: 30px;
+            font-weight: bold;
+            text-align: justify;
+            background-color: #FFFFFF; 
+user-select: none;
+
+		}
+		span{
+			font-family: "RobotoCondensed-Regular";
+		}
+		button{
+						font-family: "RobotoCondensed-Regular";
+
+		}
+.arkaplan{
+
+	background-image: url(img/3.png);
+    background-color: #FFFFFF;    background-size: cover;
+    background-position: center;height: 100vh;
+    overflow: auto;
+}.arkaplan2{
+
+	background-image: url(img/7.png);
+    background-color: #FFFFFF;    background-size: cover;
+	background-position: center;
+height: 100vh;
+    overflow: auto;
+}
+.arkaplan3{
+
+	background-image: url(img/1.png);
+    background-color: #FFFFFF;    background-size: cover;
+	background-position: center;
+	height: 100vh;
+    overflow: auto;
+
+}.arkaplan4{
+
+	background-image: url(img/9.png);
+    background-color: #FFFFFF;    background-size: cover;
+	background-position: center;
+height: 100vh;
+    overflow: auto;
+}
+.MainBosluk{
+	margin-top:5%;
+}
+.MainForm{
+	height:100%;
+	text-align:center;	
+	color:#FFFFFF;
+	user-select: none;
+
+}
+.AraForm {
+
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+
+	
+
+
+
+
+.icon-user:before{
+	font-size:50px;
+		align-items:center;	color: #FFFFFF
+
+
+}
+.icon-help:before{
+	font-size:50px;
+	align-items:center;	color: #FFFFFF
+
+}
+.icon-plus-roll:before {
+	font-size:70px;
+	align-items:center;	color: #FFFFFF
+
+}
+.icon-search:before {
+font-size:70px;
+	align-items:center;	color: #FFFFFF
+
+
+}
+.icon-x-line:before {
+	font-size:200px;
+	align-items:center;	color: #FFFFFF
+
+}
+.icon-checkbox:before {
+	font-size:200px;
+	align-items:center;	color: #FFFFFF
+
+}
+.icon-alert-line:before {
+	font-size:150;
+	align-items:center;	color: #FFFFFF
+
+	
+}
+.icon-arrow1-l{
+	font-size:70px;
+	align-items:center;	color: #FFFFFF
+
+	
+}
+
+.icon-notification:before {
+	font-size:70;
+	align-items:center;	color: #FFFFFF
+
+}
+
+.mainKullanici p{
+
+margin-left: 5%;
+margin-right: 10%
+
+
+
+
+}
+.mainbutton{
+	background-color: rgba(0, 130, 195, 0.9);
+	margin-bottom: 50px;
+	font-size:50px; 	
+	display:flex!important;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:center;
+	 font-weight:10px;	
+
+		  width:100%;
+		  margin-top: 20%;
+	  padding:40px;
+}
+.buttonContainer{
+	width:100%;
+	margin:auto;
+	display:flex;
+	    opacity: 0.8;
+}
+.mainbutton span{
+	width:100%;
+	color:#FFFFFF;
+}
+
+
+table, th, td {
+	
+	font-size:25px;
+	background-color:snow;
+        opacity: 0.9;
+        padding:10px;
+
+}
+
+th, td{
+	border: 1px solid #ababab;
+	
+}
+
+select {
+    padding:15px;
+	font-size:  30px;
+	
+}
+
+.EkleForm{
+
+	justify-content: space-between;
+	align-items: center;
+	padding:0 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+	
+}
+.EkleForm button {
+	background-color: #0082C3;
+	padding: 10px 40px;
+    border-radius: 2px;
+	font-size:30px;
+		opacity: 0.8;
+    background-color: #0082C3;
+margin-bottom: 10px;
+	
+
+}
+.EkleForm input{
+
+	padding: 20px;
+	width: 50%;
+	font-size: 20px;
+}
+.EkleForm2{
+
+	padding: 20px;
+	height: 100%;
+	    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.btnben{
+	padding: 5px;
+	background-color: #0082C3;
+    width: 100%;
+	opacity: 0.8;
+	font-size: 30px;
+	border-radius: 2px;
+	color:#FFFFFF;
+
+}
+.ustyazi{
+	margin-left: 30px;
+}
+
+.arabutton{
+	    border-radius: 2px;
+
+	background-color: #FFFFFF;
+	font-size:30px; 	
+	padding: 5%;
+    width: 100%;
+    opacity: 0.8;
+
+}
+.buttonContainer2{
+	width:100%;
+	margin:auto;
+	display:flex;
+}
+.EkleForm2 button{
+font-size:30px;
+	 padding: 8%;
+	background-color: #0082C3;
+	opacity: 0.8;
+	margin-top: 20px;
+	border-radius: 2px;
+}
+
+
+.user-icon{
+background-color: #0082C3;
+border-radius: 50%;
+width:200px;
+height:200px;
+margin:auto;
+opacity: 0.7;
+}
+
+.icon-user{
+	margin-top: 10px;
+	color: #FFFFFF
+}
+
+
+.icon-user:before {
+  font-size: 150px;
+  	color: #FFFFFF
+
+}
+
+.usttaraf{
+user-select: none;
+		width: 100%;
+		background-color: #0082C3;
+		padding: 3%;
+
+}
+.usttaraf span{
+font-size: 50px;
+
+}
+.sorgubtn{
+font-size: 30px;
+		background-color: rgb(23, 235, 41);
+		padding: 10px;
+    border-radius: 2px;
+    width: 150px;
+		margin-bottom:10px;
+
+}
+.sorgubtnred{
+font-size: 30px;
+		background-color: red;
+		padding: 10px;
+    border-radius: 2px;
+    width: 150px;
+
+}
+.sorgulama{
+
+	font-size: 40px;
+	display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 20px;
+margin-bottom: 20px;
+}
+
+.sorgulama .item{ 	
+	display:flex;
+	width: 80%;
+}
+.sorgulama .item-code{
+	font-size:30px;
+
+padding: 1%;
+width: 60%
+
+}
+.buttoncuuu{
+
+	    overflow: hidden;
+    padding: 10px;
+}
+
+.tablebutton{
+	display: flex;
+	padding:40px;
+		background-color: #0082C3;
+}
+@media only screen and (orientation: landscape) {
+	*{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+ }
+ html, body{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .icon-menu:before {
+    font-size: 27px;
+    color: #FFFFFF;
+}
+ .mainbutton span {
+    width: 100%;
+    font-size: 30px;
+    color: #FFFFFF;
+ }
+ .arkaplan{
+    background-image: url(img/3.png);
+    background-color: #FFFFFF;
+    background-size: cover;
+ height: 100vh;
+    overflow: auto;    background-position: center;
+ }
+ .MainForm {
+    height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+
+
+
+  }
+ 
+  .arkaplan4 {
+    background-image: url(img/9.png);
+    background-color: #FFFFFF;
+    background-size: cover;
+	background-position: center;
+    height: 100vh;
+    overflow: auto;
+
+  }
+  .arkaplan2 {
+    background-image: url(img/7.png);
+    background-color: #FFFFFF;
+    background-size: cover;
+	background-position: center;
+  height: 100vh;
+    overflow: auto;
+
+  }
+  .arkaplan3 {
+    background-image: url(img/1.png);
+    background-color: #FFFFFF;
+    background-size: cover;
+	background-position: center;
+ height: 100vh;
+    overflow: auto;
+  }
+  .usttaraf {
+    user-select: none;
+ padding:10px;
+ width: 100%;
+	background-color: #0082C3;
+  }
+  .arabutton {
+    background-color: #FFFFFF;
+    font-size: 30px;
+       padding: 0%;
+    width: 100%;
+    opacity: 0.8;
+  }
+  .icon-user:before {
+    font-size: 75;
+    color: #FFFFFF;
+ }
+ .user-icon {
+    background-color: #0082C3;
+    border-radius: 50%;
+    width: 100px;
+    height: 100;
+    margin-top: 10px;
+    opacity: 0.7;
+ }
+
+ .mainbutton {
+    background-color: rgba(0, 130, 195, 0.9);
+    font-size: 50px;
+    display: flex!important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: 10px;
+	width: 100%;
+	padding: 0%;
+ margin-top: 0%;
+ }
+ 
+ .MainBosluk {
+    margin-top: 0%; 
+  }
+ th, td {
+    padding: 0px; 
+    border: 1px solid #ababab;
+ }
+ table, th, td {
+    font-size: 20px;
+    background-color: snow;
+    opacity: 0.9;
+    padding:10px;
+ }
+ .sorgubtn {
+    font-size: 20px;
+    background-color: rgb(23, 235, 41);
+    padding: 0px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    width:150px;
+ }
+ .sorgubtnred {
+    font-size: 20px;
+    background-color: red;
+    padding: 0px;
+    border-radius: 2px;
+ }
+ .usttaraf span {
+    font-size: 20px;
+ }
+ .EkleForm input {
+    padding: 0px;
+    width: 50%;
+    font-size: 20px;
+ }
+ .EkleForm button {
+    background-color: #0082C3;
+    padding: 0px 0px;
+    border-radius: 2px;
+    font-size: 30px;
+    opacity: 0.8;
+    background-color: #0082C3;
+    margin-bottom: 10px;
+ }
+ .icon-menu:before {
+    font-size: 20px;
+    color: #FFFFFF;
+ }
+ .hamburgerMenuArea {
+    width: 55%;}
+ .pagesArea li {
+    border-radius: 3px;
+    margin: 5px 0px;
+    padding: 0px 0px; 
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0px; 
+ }
+ .hUserInf {
+
+	height: 200px;
+ }
+
+.EkleForm {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
+@media only screen and (min-width: 1250px){
+.icon-menu:before {
+    font-size: 34px;
+    color: #FFFFFF;
+}
+.usttaraf {
+    user-select: none;
+    width: 100%;
+    background-color: #0082C3;
+    padding: 1%;
+}
+.arabutton {
+    background-color: #FFFFFF;
+    font-size: 30px;
+    padding: 3%;
+    width: 100%;
+    opacity: 0.8;
+}
+.EkleForm input {
+    padding: 14px;
+    width: 50%;
+    font-size: 20px;
+}
+ .arkaplan4 {
+    background-image: url(img/9.png);
+    background-color: #FFFFFF;
+    background-size: cover;
+	background-position: center;
+    height: 100vh;
+    overflow: auto;
+
+  }
+  .arkaplan2 {
+    background-image: url(img/7.png);
+    background-color: #FFFFFF;
+    background-size: cover;
+	background-position: center;
+  height: 100vh;
+    overflow: auto;
+
+  }
+  .arkaplan3 {
+    background-image: url(img/1.png);
+    background-color: #FFFFFF;
+    background-size: cover;
+	background-position: center;
+ height: 100vh;
+    overflow: auto;
+  }
+  table, th, td {
+    font-size: 21px;
+    background-color: snow;
+    opacity: 0.9;
+    padding: 10px;
+}
+ .arkaplan {
+    background-image: url(img/3.png);
+    background-color: #FFFFFF;
+    background-size: cover;
+	background-position: center;
+ height: 100vh;
+    overflow: auto;
+  }
+  .mainbutton {
+    background-color: rgba(0, 130, 195, 0.9);
+    margin-bottom: 50px;
+    font-size: 50px;
+    display: flex!important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: 10px;
+    width: 100%;
+    margin-top: 3%;
+    padding: 40px;
+}.pagesArea li {
+    border-radius: 3px;
+    margin: 5px 0px;
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 33px;
+}
+.usttaraf span {
+    font-size: 35px;
+}
+.EkleFormadmin input{
+  padding: 400px;
+
+ }
+.EkleFormadmin {
+    /* padding: 20px; */
+    height: 100%;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-end;
+}}
+ 

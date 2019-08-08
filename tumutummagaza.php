@@ -47,7 +47,6 @@
           });
         });
       </script>
-      <button class="EkleForm button" id="de" type="button">Ürün Bul</button>
 
     </div>
 

@@ -1,0 +1,128 @@
+/* Portrait and Landscape */
+
+.hamburgerblackarea {
+            opacity: 0;
+            display: none;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            background-color: rgba(0, 0, 0, 0.85);
+        }
+
+        .hamburgerMenuArea{
+            display: none;
+            width: 65%;
+            height: 100%;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            z-index: 3;
+            background-color: #ededed;
+            -webkit-box-shadow: 10px 0px 70px 0px rgba(0,0,0,0.5);
+            -moz-box-shadow: 10px 0px 70px 0px rgba(0,0,0,0.5);
+            box-shadow: 10px 0px 70px 0px rgba(0,0,0,0.5);
+        }
+
+        .hUserInf {
+                background-image: url(img/8.png);
+            width: 100%;
+            height: 300px;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-position: center;
+            width: 100%;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+        }
+       
+
+        .userInfTextArea {
+            color: #ffffff  ;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .hUserInf:after {
+            content: '';
+            background-color: #ededed;
+            display: block;
+            width: 120%;
+            height: 110px;
+            left: 0;
+            position: absolute;
+            right: 0;
+            bottom: -85px;
+            transform: rotate(-5deg);
+        }
+
+        .pagesArea {
+            border-radius: 3px;
+            opacity: 0.85;
+            display: none;
+        }
+
+        .pagesArea ul {
+            margin: 0px;
+            width: 100%;
+        }
+
+        .pagesArea li {
+            border-radius: 3px;
+            margin: 5px 0px;
+            padding: 5px 0px;
+            font-size: 15px;
+            font-weight: 400;
+                margin-top: 70px;
+        }
+
+        .pagesArea li a {
+            color: #333333;
+            text-decoration: none;
+        }
+
+        .pagesArea li a span {
+           
+            align-items: center;
+            white-space: nowrap;
+
+        }
+
+        .pagesArea li a span:before {
+            font-family: DecathlonCube;
+            font-size: 50px;
+            margin: 0px 40px 0px 15px;
+            color: #0082C3;
+            font-weight: 100;
+        }
+       .pagesArea span {
+
+        font-size: 60px;
+       }
+        #homepage span:before {
+            content: "\E070";
+        }
+
+        #report span:before {
+            content: "\E001";
+        }
+
+        #denetim span:before {
+            content: "\E017";
+        }
+         #liste span:before {
+            content: "\E003";
+        }
+        .icon-menu:before {
+  font-size: 50px;
+  	color: #FFFFFF
+
+}
+
+@media only screen and (max-height: 500px){
+}
